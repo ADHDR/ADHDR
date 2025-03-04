@@ -1,0 +1,162 @@
+// import { 
+//   GoogleAuthProvider, 
+//   getAuth, 
+//   signInWithPopup, 
+//   signInWithRedirect, 
+//   getRedirectResult 
+// } from "firebase/auth";
+
+// // Initialize the Google Auth Provider
+// const provider = new GoogleAuthProvider();
+// provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+// provider.setCustomParameters({
+//   'login_hint': 'user@example.com'
+// });
+
+// // Get the Auth instance
+// const auth = getAuth();
+// auth.languageCode = 'it'; // Set language to Italian
+
+// // Function to handle sign-in with popup
+// const signInWithPopupFunction = async () => {
+//   try {
+//     const result = await signInWithPopup(auth, provider);
+//     const credential = GoogleAuthProvider.credentialFromResult(result);
+//     if (credential) {
+//       const token = credential.accessToken; // Google Access Token
+//       const user = result.user; // Signed-in user info
+//       // Handle additional user info if needed
+//     } else {
+//       console.error("No credential returned from sign-in.");
+//     }
+//   } catch (error) {
+//     handleError(error);
+//   }
+// };
+
+// // Function to handle sign-in with redirect
+// const signInWithRedirectFunction = () => {
+//   signInWithRedirect(auth, provider);
+// };
+
+// // Function to handle the result of a redirect
+// const handleRedirectResult = async () => {
+//   try {
+//     const result = await getRedirectResult(auth);
+//     if (result) {
+//       const credential = GoogleAuthProvider.credentialFromResult(result);
+//       if (credential) {
+//         const token = credential.accessToken; // Google Access Token
+//         const user = result.user; // Signed-in user info
+//         // Handle additional user info if needed
+//       } else {
+//         console.error("No credential returned from redirect result.");
+//       }
+//     } else {
+//       console.error("No result returned from redirect.");
+//     }
+//   } catch (error) {
+//     handleError(error);
+//   }
+// };
+
+// // Error handling function
+// const handleError = (error) => {
+//   const errorCode = error.code;
+//   const errorMessage = error.message;
+//   const email = error.customData?.email; // Use optional chaining to avoid errors
+//   console.error(`Error (${errorCode}): ${errorMessage}`, email);
+// };
+
+// // Call the desired function based on your use case
+// // signInWithPopupFunction();
+// // signInWithRedirectFunction();
+// // handleRedirectResult();
+import {
+  GoogleAuthProvider,
+  getAuth,
+  signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
+  signInWithCredential
+} from "firebase/auth";
+// Initialize the Google Auth Provider
+const provider = new GoogleAuthProvider();
+provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+provider.setCustomParameters({
+  'login_hint': 'user@example.com'
+});
+// Get the Auth instance
+const auth = getAuth();
+auth.languageCode = 'it'; // Set language to Italian
+// Function to handle sign-in with popup
+const signInWithPopupFunction = async () => {
+  try {
+    const result = await signInWithPopup(auth, provider);
+    const credential = GoogleAuthProvider.credentialFromResult(result);
+    if (credential) {
+      const token = credential.accessToken; // Google Access Token
+      const user = result.user; // Signed-in user info
+      // Handle additional user info if needed
+    } else {
+      console.error("No credential returned from sign-in.");
+    }
+  } catch (error) {
+    handleError(error);
+  }
+};
+// Function to handle sign-in with redirect
+const signInWithRedirectFunction = () => {
+  signInWithRedirect(auth, provider);
+};
+// Function to handle the result of a redirect
+const handleRedirectResult = async () => {
+  try {
+    const result = await getRedirectResult(auth);
+    if (result) {
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      if (credential) {
+        const token = credential.accessToken; // Google Access Token
+        const user = result.user; // Signed-in user info
+        // Handle additional user info if needed
+      } else {
+        console.error("No credential returned from redirect result.");
+      }
+    } else {
+      console.error("No result returned from redirect.");
+    }
+  } catch (error) {
+    handleError(error);
+  }
+};
+// Error handling function
+const handleError = (error) => {
+  const errorCode = error.code;
+  const errorMessage = error.message;
+  const email = error.customData?.email; // Use optional chaining to avoid errors
+  console.error(`Error (${errorCode}): ${errorMessage}`, email);
+};
+// Function to sign in with Google ID token
+const signInWithIdToken = async (googleUser) => {
+  const id_token = googleUser.getAuthResponse().id_token;
+  // Build Firebase credential with the Google ID token.
+  const credential = GoogleAuthProvider.credential(id_token);
+  // Sign in with credential from the Google user.
+  try {
+    await signInWithCredential(auth, credential);
+  } catch (error) {
+    // Handle Errors here.
+    handleError(error);
+  }
+};
+// Export the functions for use in other parts of your application
+export {
+  signInWithPopupFunction,
+  signInWithRedirectFunction,
+  handleRedirectResult,
+  signInWithIdToken
+};
+// Call the desired function based on your use case
+// signInWithPopupFunction();
+// signInWithRedirectFunction();
+// handleRedirectResult();

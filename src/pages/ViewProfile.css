@@ -1,0 +1,133 @@
+.avatar-icon {
+  width: 64px;
+  position: relative;
+  border-radius: 1000px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.change-profile-photo,
+.helena-hills {
+  position: relative;
+  line-height: 150%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.helena-hills {
+  font-weight: 500;
+}
+.change-profile-photo {
+  color: var(--color-gray-100);
+}
+.helena-hills-parent,
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.input-title,
+.label27 {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.input-title {
+  align-self: stretch;
+  line-height: 150%;
+  font-weight: 500;
+}
+.label27 {
+  flex: 1;
+  line-height: 24px;
+}
+.field,
+.input4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.field {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--grays-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  height: 40px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.input4 {
+  width: 613px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.save-changes {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.button9 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-peachpuff);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.form,
+.profile1 {
+  position: absolute;
+  left: 111px;
+}
+.form {
+  top: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.profile1 {
+  top: 104px;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+}
+.settings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--grays-white);
+  width: 790px;
+  height: 626px;
+}
+.view-profile-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 795px;
+  height: 629px;
+}
+.view-profile {
+  width: 100%;
+  position: relative;
+  height: 933px;
+  text-align: left;
+  font-size: var(--body-base-size);
+  color: var(--labels-primary);
+  font-family: var(--body-base);
+}

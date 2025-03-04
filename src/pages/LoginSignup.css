@@ -1,0 +1,1050 @@
+.log-in-sign-up-page {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  background-color: var(--grays-white);
+  width: 946px;
+  height: 614px;
+  overflow: hidden;
+}
+.group-icon,
+.group-icon1,
+.group-icon2,
+.vector-icon,
+.vector-icon1 {
+  position: absolute;
+  height: 87.63%;
+  width: 92.42%;
+  top: 10.93%;
+  right: 2.93%;
+  bottom: 1.44%;
+  left: 4.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-icon,
+.group-icon1,
+.group-icon2,
+.vector-icon1 {
+  height: 41.56%;
+  width: 18.78%;
+  top: 0;
+  right: 34.42%;
+  bottom: 58.44%;
+  left: 46.8%;
+}
+.group-icon1,
+.group-icon2,
+.vector-icon1 {
+  height: 42.67%;
+  width: 26.03%;
+  top: 55.11%;
+  right: 37.15%;
+  bottom: 2.21%;
+  left: 36.83%;
+}
+.group-icon2,
+.vector-icon1 {
+  height: 2.21%;
+  width: 3%;
+  top: 97.79%;
+  right: 92.8%;
+  bottom: 0;
+  left: 4.2%;
+}
+.group-icon2 {
+  height: 47.03%;
+  width: 15.74%;
+  top: 4.27%;
+  right: 0.14%;
+  bottom: 48.7%;
+  left: 84.12%;
+}
+.group-icon3,
+.group-icon4,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  height: 2.21%;
+  width: 88.71%;
+  top: 97.79%;
+  right: 1.69%;
+  bottom: 0;
+  left: 9.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-icon3,
+.group-icon4,
+.vector-icon3,
+.vector-icon4 {
+  height: 84.45%;
+  width: 47.96%;
+  top: 13.32%;
+  right: 2.1%;
+  bottom: 2.23%;
+  left: 49.94%;
+}
+.group-icon4,
+.vector-icon3,
+.vector-icon4 {
+  height: 56.38%;
+  width: 15.47%;
+  top: 41.39%;
+  right: 62.9%;
+  left: 21.64%;
+}
+.vector-icon3,
+.vector-icon4 {
+  height: 17.4%;
+  width: 9.77%;
+  top: 46.77%;
+  right: 90.23%;
+  bottom: 35.83%;
+  left: 0;
+}
+.vector-icon4 {
+  height: 7.59%;
+  width: 4.25%;
+  top: 62.43%;
+  right: 85.11%;
+  bottom: 29.98%;
+  left: 10.64%;
+}
+.vector-icon10,
+.vector-icon5,
+.vector-icon6,
+.vector-icon7,
+.vector-icon8,
+.vector-icon9 {
+  position: absolute;
+  height: 2.36%;
+  width: 1.41%;
+  top: 46.2%;
+  right: 86.62%;
+  bottom: 51.44%;
+  left: 11.98%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon10,
+.vector-icon6,
+.vector-icon7,
+.vector-icon8,
+.vector-icon9 {
+  top: 33.34%;
+  right: 64.34%;
+  bottom: 64.31%;
+  left: 34.25%;
+}
+.vector-icon10,
+.vector-icon7,
+.vector-icon8,
+.vector-icon9 {
+  top: 86.12%;
+  right: 98.11%;
+  bottom: 11.53%;
+  left: 0.49%;
+}
+.vector-icon10,
+.vector-icon8,
+.vector-icon9 {
+  height: 7.59%;
+  width: 4.25%;
+  top: 3.64%;
+  right: 51.15%;
+  bottom: 88.77%;
+  left: 44.6%;
+}
+.vector-icon10,
+.vector-icon9 {
+  height: 2.36%;
+  width: 1.41%;
+  top: 70.12%;
+  right: 95.24%;
+  bottom: 27.52%;
+  left: 3.35%;
+}
+.vector-icon10 {
+  top: 86.94%;
+  right: 81.61%;
+  bottom: 10.7%;
+  left: 16.99%;
+}
+.vector-icon11,
+.vector-icon12,
+.vector-icon13,
+.vector-icon14,
+.vector-icon15,
+.vector-icon16 {
+  position: absolute;
+  height: 2.36%;
+  width: 1.41%;
+  top: 54.83%;
+  right: 59.32%;
+  bottom: 42.81%;
+  left: 39.27%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon12,
+.vector-icon13,
+.vector-icon14,
+.vector-icon15,
+.vector-icon16 {
+  top: 0.9%;
+  right: 30.21%;
+  bottom: 96.75%;
+  left: 68.38%;
+}
+.vector-icon13,
+.vector-icon14,
+.vector-icon15,
+.vector-icon16 {
+  top: 12.37%;
+  right: 56.32%;
+  bottom: 85.27%;
+  left: 42.27%;
+}
+.vector-icon14,
+.vector-icon15,
+.vector-icon16 {
+  top: 69.51%;
+  right: 61.24%;
+  bottom: 28.14%;
+  left: 37.36%;
+}
+.vector-icon15,
+.vector-icon16 {
+  top: 82.58%;
+  right: 5.47%;
+  bottom: 15.06%;
+  left: 93.13%;
+}
+.vector-icon16 {
+  top: 66.75%;
+  right: 0;
+  bottom: 30.9%;
+  left: 98.59%;
+}
+.vector-icon17,
+.vector-icon18,
+.vector-icon19,
+.vector-icon20,
+.vector-icon21,
+.vector-icon22 {
+  position: absolute;
+  height: 2.36%;
+  width: 1.41%;
+  top: 6.41%;
+  right: 4.92%;
+  bottom: 91.23%;
+  left: 93.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon18,
+.vector-icon19,
+.vector-icon20,
+.vector-icon21,
+.vector-icon22 {
+  top: 91.55%;
+  right: 2.78%;
+  bottom: 6.1%;
+  left: 95.81%;
+}
+.vector-icon19,
+.vector-icon20,
+.vector-icon21,
+.vector-icon22 {
+  top: 2.74%;
+  right: 19.46%;
+  bottom: 94.9%;
+  left: 79.13%;
+}
+.vector-icon20,
+.vector-icon21,
+.vector-icon22 {
+  top: 70.65%;
+  right: 57.19%;
+  bottom: 26.99%;
+  left: 41.41%;
+}
+.vector-icon21,
+.vector-icon22 {
+  top: 81.6%;
+  right: 88.5%;
+  bottom: 16.05%;
+  left: 10.1%;
+}
+.vector-icon22 {
+  height: 2.71%;
+  width: 6.67%;
+  top: 24.53%;
+  right: 36.15%;
+  bottom: 72.76%;
+  left: 57.18%;
+}
+.vector-icon23,
+.vector-icon24,
+.vector-icon25,
+.vector-icon26,
+.vector-icon27 {
+  position: absolute;
+  height: 18.32%;
+  width: 57.12%;
+  top: 21.65%;
+  right: 26.68%;
+  bottom: 60.02%;
+  left: 16.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon24,
+.vector-icon25,
+.vector-icon26,
+.vector-icon27 {
+  height: 8.13%;
+  width: 16.33%;
+  top: 27.99%;
+  right: 24.33%;
+  bottom: 63.88%;
+  left: 59.34%;
+}
+.vector-icon25,
+.vector-icon26,
+.vector-icon27 {
+  height: 9.86%;
+  width: 12.9%;
+  top: 36.26%;
+  right: 34.37%;
+  bottom: 53.88%;
+  left: 52.73%;
+}
+.vector-icon26,
+.vector-icon27 {
+  height: 40.46%;
+  width: 33.29%;
+  top: 57.46%;
+  right: 21.41%;
+  bottom: 2.09%;
+  left: 45.3%;
+}
+.vector-icon27 {
+  height: 28.92%;
+  width: 45.43%;
+  top: 32.18%;
+  right: 10.86%;
+  bottom: 38.9%;
+  left: 43.71%;
+}
+.vector-icon28,
+.vector-icon29,
+.vector-icon30,
+.vector-icon31,
+.vector-icon32 {
+  position: absolute;
+  height: 3.41%;
+  width: 20.14%;
+  top: 96.59%;
+  right: 37.74%;
+  bottom: 0;
+  left: 42.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon29,
+.vector-icon30,
+.vector-icon31,
+.vector-icon32 {
+  height: 1.27%;
+  width: 20.08%;
+  top: 98.71%;
+  right: 37.8%;
+  bottom: 0.02%;
+}
+.vector-icon30,
+.vector-icon31,
+.vector-icon32 {
+  height: 3.19%;
+  width: 9.72%;
+  top: 96.81%;
+  right: 18.55%;
+  bottom: 0;
+  left: 71.73%;
+}
+.vector-icon31,
+.vector-icon32 {
+  height: 1.01%;
+  width: 9.66%;
+  top: 98.99%;
+  left: 71.79%;
+}
+.vector-icon32 {
+  height: 3.98%;
+  width: 16.14%;
+  top: 32.09%;
+  right: 22.36%;
+  bottom: 63.93%;
+  left: 61.5%;
+}
+.vector-icon33,
+.vector-icon34,
+.vector-icon35,
+.vector-icon36,
+.vector-icon37 {
+  position: absolute;
+  height: 30.86%;
+  width: 24.21%;
+  top: 33%;
+  right: 10.74%;
+  bottom: 36.14%;
+  left: 65.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon34,
+.vector-icon35,
+.vector-icon36,
+.vector-icon37 {
+  height: 29.57%;
+  width: 20.84%;
+  top: 32.25%;
+  right: 37.42%;
+  bottom: 38.18%;
+  left: 41.74%;
+}
+.vector-icon35,
+.vector-icon36,
+.vector-icon37 {
+  height: 12.09%;
+  width: 13.34%;
+  top: 32.73%;
+  right: 19.31%;
+  bottom: 55.18%;
+  left: 67.34%;
+}
+.vector-icon36,
+.vector-icon37 {
+  height: 11.89%;
+  width: 5.97%;
+  top: 32.23%;
+  right: 37.42%;
+  bottom: 55.88%;
+  left: 56.61%;
+}
+.vector-icon37 {
+  height: 5.32%;
+  width: 5.27%;
+  top: 19.78%;
+  right: 34.94%;
+  bottom: 74.89%;
+  left: 59.78%;
+}
+.vector-icon38,
+.vector-icon39,
+.vector-icon40,
+.vector-icon41,
+.vector-icon42 {
+  position: absolute;
+  height: 2.61%;
+  width: 6.86%;
+  top: 26.12%;
+  right: 12.45%;
+  bottom: 71.27%;
+  left: 80.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon39,
+.vector-icon40,
+.vector-icon41,
+.vector-icon42 {
+  height: 12.97%;
+  width: 25.35%;
+  top: 18.73%;
+  right: 14.93%;
+  bottom: 68.3%;
+  left: 59.72%;
+}
+.vector-icon40,
+.vector-icon41,
+.vector-icon42 {
+  height: 10.65%;
+  width: 23.95%;
+  top: 21.06%;
+  left: 61.12%;
+}
+.vector-icon41,
+.vector-icon42 {
+  height: 1.44%;
+  width: 5.72%;
+  top: 28.51%;
+  right: 26.94%;
+  bottom: 70.05%;
+  left: 67.34%;
+}
+.vector-icon42 {
+  height: 4.7%;
+  width: 6.42%;
+  top: 55.16%;
+  right: 20.58%;
+  bottom: 40.14%;
+  left: 73%;
+}
+.vector-icon43,
+.vector-icon44,
+.vector-icon45,
+.vector-icon46,
+.vector-icon47 {
+  position: absolute;
+  height: 4.2%;
+  width: 5.78%;
+  top: 53.24%;
+  right: 51.72%;
+  bottom: 42.57%;
+  left: 42.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon44,
+.vector-icon45,
+.vector-icon46,
+.vector-icon47 {
+  height: 6.16%;
+  width: 9.4%;
+  top: 15.56%;
+  right: 74.59%;
+  bottom: 78.27%;
+  left: 16.01%;
+}
+.vector-icon45,
+.vector-icon46,
+.vector-icon47 {
+  height: 11.97%;
+  width: 30.43%;
+  top: 15.3%;
+  right: 11.31%;
+  bottom: 72.73%;
+  left: 58.26%;
+}
+.vector-icon46,
+.vector-icon47 {
+  height: 9.45%;
+  top: 17.82%;
+}
+.vector-icon47 {
+  height: 23.69%;
+  width: 19%;
+  top: 34.84%;
+  right: 3.24%;
+  bottom: 41.46%;
+  left: 77.76%;
+}
+.group-icon5,
+.vector-icon48,
+.vector-icon49,
+.vector-icon50,
+.vector-icon51 {
+  position: absolute;
+  height: 5.06%;
+  width: 9.72%;
+  top: 17.34%;
+  right: 75.22%;
+  bottom: 77.6%;
+  left: 15.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon48,
+.vector-icon49,
+.vector-icon50,
+.vector-icon51 {
+  height: 2.13%;
+  width: 5.15%;
+  top: 15.56%;
+  right: 77.83%;
+  bottom: 82.3%;
+  left: 17.03%;
+}
+.vector-icon49,
+.vector-icon50,
+.vector-icon51 {
+  height: 1.77%;
+  width: 4.83%;
+  top: 15.92%;
+  left: 17.34%;
+}
+.vector-icon50,
+.vector-icon51 {
+  height: 20.36%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 79.64%;
+  left: 0;
+}
+.vector-icon51 {
+  height: 18.18%;
+  width: 94.28%;
+  top: 1.08%;
+  right: 2.86%;
+  bottom: 80.74%;
+  left: 2.86%;
+}
+.div10 {
+  position: absolute;
+  height: 3.6%;
+  width: 20.71%;
+  top: 11.61%;
+  left: 10.17%;
+  display: inline-block;
+}
+.group-icon6 {
+  position: absolute;
+  height: 2.4%;
+  width: 9.02%;
+  top: 19.09%;
+  right: 75.22%;
+  bottom: 78.51%;
+  left: 15.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group {
+  position: absolute;
+  height: 73.29%;
+  width: 16.64%;
+  top: 24.5%;
+  right: 44.04%;
+  bottom: 2.21%;
+  left: 39.32%;
+}
+.char-10,
+.mask-group {
+  position: absolute;
+  left: 0;
+  height: 569px;
+}
+.char-10 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.mask-group {
+  width: 98.85%;
+  top: 5px;
+  right: 1.15%;
+  opacity: 0.2;
+}
+.heading,
+.subheading {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.heading {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.subheading {
+  font-size: var(--subheading-size);
+  color: var(--text-default-secondary);
+}
+.text-content-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-200);
+}
+.title1 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.chevron-up-icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.accordion-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-200);
+}
+.body {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+}
+.accordion-content,
+.accordion-item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.accordion-item {
+  border-radius: var(--radius-200);
+  background-color: var(--grays-white);
+  border: 1px solid var(--border-default-default);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg);
+  gap: var(--space-200);
+  text-align: center;
+}
+.chevron-down-icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.accordion-item1,
+.accordion-title1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.accordion-title1 {
+  flex: 1;
+  display: flex;
+  gap: var(--space-200);
+}
+.accordion-item1 {
+  width: 640px;
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-secondary);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  display: none;
+  padding: var(--padding-lg);
+}
+.accordion,
+.page-accordion {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accordion {
+  width: 640px;
+  display: none;
+  align-items: flex-start;
+  gap: var(--space-400);
+  max-width: 640px;
+  text-align: left;
+  font-size: var(--body-base-size);
+}
+.page-accordion {
+  position: absolute;
+  width: 50.16%;
+  top: calc(50% - 271px);
+  right: 49.84%;
+  left: 0;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  height: 126px;
+  display: flex;
+  align-items: center;
+  padding: var(--space-1600);
+  gap: var(--space-1200);
+}
+.description,
+.label11 {
+  position: relative;
+  line-height: 140%;
+}
+.label11 {
+  align-self: stretch;
+}
+.description {
+  width: 240px;
+  color: var(--text-default-secondary);
+  display: none;
+}
+.value {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--radius-200);
+  background-color: var(--grays-white);
+  border: 1px solid var(--grays-white);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--space-300) var(--space-400);
+  min-width: 240px;
+  color: var(--text-default-tertiary);
+}
+.error {
+  width: 37px;
+  position: relative;
+  line-height: 140%;
+  color: var(--text-default-default);
+  display: none;
+}
+.input-field {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-200);
+}
+.star-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  position: relative;
+  line-height: 100%;
+}
+.button,
+.button-group,
+.button2 {
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  width: 112px;
+  border-radius: var(--radius-200);
+  overflow: hidden;
+  display: none;
+  justify-content: center;
+  padding: var(--space-300);
+  box-sizing: border-box;
+  gap: var(--space-200);
+}
+.button-group,
+.button2 {
+  display: flex;
+}
+.button2 {
+  flex: 1;
+  border-radius: var(--radius-200);
+  background-color: var(--color-orange);
+  border: 1px solid var(--color-orange);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--space-300);
+  gap: var(--space-200);
+  color: var(--labels-primary);
+}
+.button-group {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--space-400);
+  color: var(--text-neutral-default);
+}
+.text-link1 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 140%;
+  cursor: pointer;
+}
+.text-link {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--schemes-primary);
+}
+.form-log-in,
+.page-accordion1 {
+  position: absolute;
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form-log-in {
+  height: 70.3%;
+  width: 42.21%;
+  top: 29.7%;
+  right: 54.29%;
+  bottom: 0;
+  left: 3.5%;
+  border-radius: var(--radius-200);
+  background-color: var(--color-gray-400);
+  align-items: flex-start;
+  padding: var(--space-600);
+  gap: var(--space-600);
+  text-align: left;
+  font-size: var(--body-base-size);
+  color: var(--labels-primary);
+}
+.page-accordion1 {
+  height: 23.62%;
+  width: 48.78%;
+  top: 0;
+  right: 0;
+  bottom: 76.38%;
+  left: 51.22%;
+  background-color: var(--color-gray-200);
+  align-items: center;
+  padding: var(--space-1600);
+  gap: var(--space-1200);
+}
+.error2 {
+  width: 37px;
+  position: relative;
+  line-height: 140%;
+  display: none;
+}
+.check-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.checkbox,
+.checkbox-and-label,
+.description-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkbox {
+  width: 16px;
+  border-radius: var(--radius-100);
+  background-color: var(--background-brand-default);
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.checkbox-and-label,
+.description-row {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--space-300);
+}
+.description-row {
+  color: var(--text-default-secondary);
+}
+.checkbox-field {
+  width: 272px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button6,
+.form-register {
+  border-radius: var(--radius-200);
+  display: flex;
+}
+.button6 {
+  flex: 1;
+  background-color: var(--color-orange);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-300);
+  gap: var(--space-200);
+  color: var(--labels-primary);
+}
+.form-register {
+  position: absolute;
+  height: 71.4%;
+  width: 39.02%;
+  top: 27.68%;
+  right: 3.29%;
+  bottom: 0.92%;
+  left: 57.69%;
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-600);
+  gap: var(--space-600);
+  text-align: left;
+  font-size: var(--body-base-size);
+}
+.page-accordion-parent {
+  position: absolute;
+  width: 98.54%;
+  top: calc(50% - 277.5px);
+  right: 0.42%;
+  left: 1.04%;
+  height: 542px;
+  text-align: center;
+  font-size: var(--heading-size);
+  color: var(--text-default-default);
+}
+.back-to-home {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.button8 {
+  position: absolute;
+  top: 546px;
+  left: 48px;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-peachpuff);
+  width: 230px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: var(--font-size-lgi);
+  color: var(--color-darkslategray-200);
+}
+.loginsignup {
+  width: 100%;
+  position: relative;
+  height: 619px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--grays-white);
+  font-family: var(--body-base);
+}

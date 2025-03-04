@@ -1,0 +1,292 @@
+/* General Styling for Login Page */
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F0E5DA;
+    font-family: var(--body-base);
+    color: var(--color-darkslategray-200);
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title Styling */
+.login-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #3a3a3a;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Error Message */
+.error-msg {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Input Group Styling */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.input-label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.input-field {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #947568;
+    box-shadow: 0px 0px 5px rgba(148, 117, 104, 0.5);
+}
+
+/* Login Button */
+.login-button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #947568;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: #b08973;
+    transform: scale(1.05);
+}
+
+/* Signup Text */
+.signup-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.signup-link {
+    color: #947568;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.signup-link:hover {
+    color: #b08973;
+}
+
+
+.home {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #F0E5DA;
+  }
+  
+  /* Header Styling */
+  .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--grays-white);
+    height: 164px;
+    overflow: hidden;
+    font-size: var(--subheading-size);
+    z-index: 10; /* Keeps header above content */
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Header shadow */
+  }
+  
+  /* Main Content Styling */
+  .content-wrapper {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 10px; /* Offset fixed header */
+    margin-bottom: 0;
+    background: #F0E5DA;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 1000px;
+  }
+  /* Title Section */
+  .about-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-title h1 {
+    font-size: 3rem;
+    color: #3a3a3a;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+  }
+  
+  .about-title .tagline {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  
+  /* Section Cards */
+  .section-card {
+    padding: 1.5rem;
+    background: #F0E5DA;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    text-align: center;
+  }
+  
+  .section-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    background: #B7C5BE;
+  }
+  
+  /* Hidden Content Styling */
+  .section-card h2 {
+    opacity: 100;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .section-card p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .section-card:hover h2,
+  .section-card:hover p {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Grid Container */
+  .content-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    margin-bottom: 2rem; /* Provide space for footer */
+  }
+  
+  /* Call-to-Action Buttons */
+  .call-to-action {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .cta-button {
+    padding: 0.75rem 2rem;
+    background: #947568;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #b08973;
+    transform: scale(1.1);
+  }
+  
+  /* Footer Styling */
+  .navigation-footer {
+    position: fixed; /* Sticks the footer to the viewport */
+    bottom: 0; /* Aligns the footer to the bottom of the screen */
+    left: 0;
+    width: 100%; /* Ensures the footer spans the entire width */
+    height: 60px; /* Fixed height for the footer */
+    background-color: var(--grays-white); /* Background color for the footer */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the footer */
+    z-index: 100; /* Ensure it stays above other content but below the header */
+  }
+  
+  .items4 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .current-page {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .button12 {
+    padding: 0.75rem 2rem;
+    background-color: #947568;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .button12:hover {
+    background-color: #b08973;
+    transform: scale(1.1);
+  }

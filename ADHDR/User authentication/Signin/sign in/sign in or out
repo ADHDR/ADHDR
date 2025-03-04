@@ -1,0 +1,101 @@
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+import { getDatabase } from 'firebase/database';
+import { GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRedirectResult, linkWithCredential } from "firebase/auth";
+
+const firebaseConfig = {
+    apiKey: "AIzaSyAYKkX-MphFZ0nHBiIY3h1HT_An0RNc38A",
+    authDomain: "adhdr-a921a.firebaseapp.com",
+    projectId: "adhdr-a921a",
+};
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const database = getDatabase(app);
+
+const provider = new GoogleAuthProvider();
+provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+provider.setCustomParameters({
+    'login_hint': 'user@example.com'
+});
+
+auth.languageCode = 'it';
+
+async function signInWithPopupMethod() {
+    try {
+        const result = await signInWithPopup(auth, provider);
+        const credential = GoogleAuthProvider.credentialFromResult(result);
+        const token = credential.accessToken;
+        const user = result.user;
+        console.log('Signed in user:', user);
+        // Handle signed-in user info and token
+    } catch (error) {
+        console.error('Error signing in with popup:', error);
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        const email = error.customData?.email; // Safe access
+        const credential = GoogleAuthProvider.credentialFromError(error);
+        // Handle errors
+    }
+}
+
+async function signInWithRedirectMethod() {
+    try {
+        await signInWithRedirect(auth, provider);
+    } catch (error) {
+        console.error('Error signing in with redirect:', error);
+        // Handle errors
+    }
+}
+
+async function getRedirectResultMethod() {
+    try {
+        const result = await getRedirectResult(auth);
+        const credential = GoogleAuthProvider.credentialFromResult(result);
+        const token = credential.accessToken;
+        const user = result.user;
+        console.log('Redirect result user:', user);
+        // Handle signed-in user info and token
+    } catch (error) {
+        console.error('Error getting redirect result:', error);
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        const email = error.customData?.email; // Safe access
+        const credential = GoogleAuthProvider.credentialFromError(error);
+        // Handle errors
+    }
+}
+
+async function linkWithCredentialMethod() {
+    let pendingCred = null;
+
+    try {
+        let result = await signInWithPopup(auth, provider);
+        console.log('Signed in user for linking:', result.user);
+        // Handle signed-in user info if necessary
+    } catch (error) {
+        if (error.code === "auth/account-exists-with-different-credential") {
+            pendingCred = error.credential;
+            console.log('Account exists with different credential:', pendingCred);
+            // Notify user about existing account and let them choose another sign-in method
+            // e.g., show a modal or prompt
+        } else {
+            console.error('Error linking with credential:', error);
+            // Handle errors
+        }
+    }
+
+    if (pendingCred) {
+        try {
+            // Assume userSelectedProvider is defined and valid
+            let result = await signInWithPopup(auth, userSelectedProvider);
+            console.log('Linked user:', result.user);
+            let user = await linkWithCredential(result.user, pendingCred);
+            console.log('Successfully linked user:', user);
+            // Continue to app, e.g., redirect or update UI
+        } catch (error) {
+            console.error('Error linking with credential after sign-in:', error);
+            // Handle errors
+        }
+    }
+}

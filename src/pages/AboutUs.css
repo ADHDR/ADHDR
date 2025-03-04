@@ -1,0 +1,290 @@
+/* Ensure space for header */
+.contact-us-page {
+  width: 100%;
+  position: relative;
+  height: 1000px;
+  text-align: left;
+  font-size: var(--heading1-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--body-base);
+  background-color: #F0E5DA;
+}
+
+.home {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: #F0E5DA;
+}
+
+/* Header Styling */
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--grays-white);
+  height: 164px;
+  overflow: hidden;
+  font-size: var(--subheading-size);
+  z-index: 10; /* Keeps header above content */
+  display: flex;
+  justify-content: center; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Header shadow */
+}
+
+/* Main Content Styling */
+.content-wrapper {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 10px; /* Offset fixed header */
+  margin-bottom: 0;
+  background: #F0E5DA;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 1000px;
+}
+
+/* Title Section */
+.about-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title h1 {
+  font-size: 3rem;
+  color: #3a3a3a;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 200px;
+}
+
+.about-title .tagline {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Section Cards */
+.section-card {
+  flex: 0 0 30%; /* Take up approximately 30% width (allows for margins) */
+  margin: 0 0 1.5rem 0; /* Bottom margin only */
+  box-sizing: border-box;
+  /* Keep other properties the same */
+}
+
+.section-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  background: #B7C5BE;
+}
+
+/* Hidden Content Styling */
+.section-card h2 {
+  opacity: 100;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.section-card p {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.section-card:hover h2,
+.section-card:hover p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Grid Container - FIXED */
+.content-sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* Add responsive behavior 
+@media (max-width: 768px) {
+  .content-sections {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}*/
+
+/*@media (max-width: 480px) {
+  .content-sections {
+    grid-template-columns: 1fr;
+  }
+}*/
+
+/* Call-to-Action Buttons */
+.call-to-action {
+  display: flex;
+  gap: 1rem;
+}
+
+.cta-button {
+  padding: 0.75rem 2rem;
+  background: #947568;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+  background: #b08973;
+  transform: scale(1.1);
+}
+
+/* Footer Styling */
+.navigation-footer {
+  position: fixed; /* Sticks the footer to the viewport */
+  bottom: 0; /* Aligns the footer to the bottom of the screen */
+  left: 0;
+  width: 100%; /* Ensures the footer spans the entire width */
+  height: 60px; /* Fixed height for the footer */
+  background-color: var(--grays-white); /* Background color for the footer */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: center;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the footer */
+  z-index: 100; /* Ensure it stays above other content but below the header */
+}
+
+.items4 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.current-page {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.button12 {
+  padding: 0.75rem 2rem;
+  background-color: #947568;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.button12:hover {
+  background-color: #b08973;
+  transform: scale(1.1);
+}
+
+/* Section Card for Berry Blitz */
+.berry-blitz-card {
+  position: relative;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.magic-castle-card {
+  position: relative;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Ensures the image container fills the entire card */
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow around the image */
+  cursor: pointer;
+}
+
+.berry-blitz-button {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Makes the image fill the container while maintaining aspect ratio */
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover .berry-blitz-button {
+  transform: scale(1.1); /* Zoom in on hover */
+}
+
+/* Overlay styling - FIXED */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay for better contrast */
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay-text {
+  color: white; /* White text */
+  font-size: 1.1rem; /* Slightly larger */
+  font-weight: bold; /* Make it bold */
+  text-align: center;
+  padding: 0 1rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Add text shadow */
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+/* Additional Section Text Styling */
+.section-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Title Styling */
+.game-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 1rem; /* Space between card and title */
+  text-align: center;
+}

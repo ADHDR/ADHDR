@@ -1,0 +1,255 @@
+.contact-us-page {
+  position: relative;
+  background-color: var(--grays-white);
+  width: 100vw;
+  min-height: 140vh;
+  overflow-x: hidden;
+ }
+ 
+ 
+ .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--grays-white);
+  height: 164px;
+  overflow: hidden;
+  font-size: var(--subheading-size);
+  z-index: 10; /* Keeps header above content */
+  display: flex;
+  justify-content: center; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Header shadow */
+}
+ 
+ 
+ .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 80px;
+  max-width: 1440px;
+  margin: 0 auto;
+ }
+ 
+ 
+ .nav-item {
+  font-size: var(--subheading-size);
+  line-height: 100%;
+  font-weight: 500;
+  cursor: pointer;
+  padding: var(--padding-sm) var(--padding-5xl);
+  transition: color 0.3s ease;
+ }
+ 
+ 
+ .nav-item-active {
+  color: var(--color-peachpuff);
+ }
+ 
+ 
+ /* Main Content Styles */
+ .contact-content {
+  position: relative;
+  padding-top: 244px;
+  padding-left: 80px;
+  padding-right: 80px;
+  max-width: 1440px;
+  margin: 0 auto;
+ }
+ 
+ 
+ .headline {
+  width: 624px;
+  margin-bottom: 64px;
+ }
+ 
+ 
+ .headline .title {
+  font-size: var(--title-size);
+  letter-spacing: -0.02em;
+  font-weight: bold;
+  margin-bottom: var(--spacing-s);
+ }
+ 
+ 
+ .headline .email {
+  font-size: var(--heading-size);
+  line-height: 150%;
+  color: var(--color-dimgray);
+ }
+ 
+ 
+ /* Form Styles */
+ .contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 32px;
+  max-width: 626px;
+ }
+ 
+ 
+ .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+ }
+ 
+ 
+ .form-group:nth-child(1),
+ .form-group:nth-child(2) {
+  width: 295px;
+ }
+ 
+ 
+ .form-group:nth-child(3),
+ .form-group:nth-child(4) {
+  width: 100%;
+ }
+ 
+ 
+ .form-group label {
+  font-size: var(--body-base-size);
+  line-height: 70%;
+  color: var(--color-darkslategray-200);
+ }
+ 
+ 
+ .form-group input,
+ .form-group textarea {
+  flex: 1;
+  padding: var(--padding-xs) var(--padding-base);
+  border-radius: var(--br-5xs);
+  background-color: var(--grays-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-shadow: var(--button-shadow);
+  font-family: var(--body-base);
+  font-size: var(--body-base-size);
+  color: var(--color-darkslategray-200);
+ }
+ 
+ 
+ .form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+ }
+ 
+ 
+ .submit-button {
+  width: 100%;
+  padding: var(--padding-base) 32px;
+  background-color: var(--color-peachpuff);
+  border: none;
+  border-radius: var(--br-5xs);
+  box-shadow: var(--button-shadow);
+  font-size: var(--subheading-size);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+ 
+ 
+ /* Footer Styles */
+ .footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--grays-white);
+  padding: 5px 80px;
+  border-top: 1px solid var(--color-gainsboro-100);
+ }
+ 
+ 
+ .footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+ }
+ 
+ 
+ .typing-animation {
+  font-size: var(--heading-size);
+  line-height: 150%;
+  color: var(--color-darkslategray-200);
+  margin-bottom: 32px;
+  text-align: center;
+ }
+ 
+ 
+ .footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+ }
+ 
+ 
+ .footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+ }
+ 
+ 
+ .footer-section h3 {
+  font-size: var(--body-base-size);
+  line-height: 100%;
+  font-weight: 500;
+  color: var(--color-darkslategray-200);
+ }
+ 
+ 
+ .footer-section a {
+  font-size: var(--body-base-size);
+  line-height: 100%;
+  color: var(--color-darkslategray-100);
+  text-decoration: none;
+  transition: color 0.3s ease;
+ }
+ 
+ 
+ .footer-section a:hover {
+  color: var(--color-peachpuff);
+ }
+ 
+ 
+ /* Responsive Styles */
+ @media (max-width: 1024px) {
+  .contact-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+ 
+ 
+  .headline {
+    width: 100%;
+  }
+ 
+ 
+  .contact-form {
+    max-width: 100%;
+  }
+ }
+ 
+ 
+ @media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+ 
+ 
+  .form-group:nth-child(1),
+  .form-group:nth-child(2) {
+    width: 100%;
+  }
+ 
+ 
+  .footer-section {
+    align-items: center;
+    text-align: center;
+  }
+ }
+ 
